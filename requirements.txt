@@ -1,0 +1,17 @@
+flask==3.0.3
+waitress==3.0.0
+prometheus-client==0.20.0
+chromadb==0.5.5
+langchain==0.2.12
+langchain-community==0.2.11
+langchain-text-splitters
+langchain-huggingface
+pypdf==4.3.1
+python-docx==1.1.2
+python-dotenv==1.0.1
+langchain_google_genai
+# langchain-chroma==0.1.*          # new
+# langchain-google-genai==1.*      # new
+# google-generativeai==0.*         # new
+
+

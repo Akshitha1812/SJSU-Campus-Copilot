@@ -1,0 +1,8 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+    {"label": "pip install", "type": "shell", "command": "pip install -r backend/requirements.txt"},
+    {"label": "docker compose up", "type": "shell", "command": "cd ops && docker compose up --build"},
+    {"label": "run eval", "type": "shell", "command": "python backend/eval.py"}
+    ]
+    }
