@@ -1,10 +1,10 @@
 FROM python:3.10-slim-buster
 
-WORKDIR /app
+WORKDIR /app/backend
 
 COPY . /app
 
 RUN pip install -r requirements.txt
 
-CMD ["python3","/backend/app.py"]
+CMD ["python3","/app.py"]
 
