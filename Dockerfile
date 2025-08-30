@@ -18,7 +18,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # (4) Start the app (WORKDIR=/app)
-CMD ["python3", "backend/app.py"]
+CMD ["python3", "backend\app.py"]
+
 
 
 
